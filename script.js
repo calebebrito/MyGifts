@@ -744,7 +744,7 @@ function updateCartUI() {
                 updateCartUI();
             });
 
-            cartItemsList.appendChild(row);
+            cartItemsList.appendChild(row)
         });
 
         const discount = totalSub - totalPix;
